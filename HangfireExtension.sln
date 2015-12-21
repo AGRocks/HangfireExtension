@@ -1,11 +1,17 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.23107.0
+VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hangfire.SQLite", "Hangfire.SQLite\Hangfire.SQLite.csproj", "{77C7E1C1-F530-461A-A93E-6AB249A4EBE0}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hangfire.SQLite.Msmq", "Hangfire.SQLite.Msmq\Hangfire.SQLite.Msmq.csproj", "{901D95C0-497D-4FAF-9963-296321AA0E89}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sample", "Sample", "{B2A20C3D-BB19-4647-AE0F-CDCA548C84F6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hangfire.Playground", "Hangfire.Playground\Hangfire.Playground.csproj", "{6A02C01A-C4A1-431F-A69F-5B1ED0581CEC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hangfire.Client", "hangrife-api\hangrife-api\Hangfire.Client.csproj", "{9A0CF81D-7715-4985-B31C-9B2D184940A2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,8 +27,20 @@ Global
 		{901D95C0-497D-4FAF-9963-296321AA0E89}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{901D95C0-497D-4FAF-9963-296321AA0E89}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{901D95C0-497D-4FAF-9963-296321AA0E89}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A02C01A-C4A1-431F-A69F-5B1ED0581CEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A02C01A-C4A1-431F-A69F-5B1ED0581CEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A02C01A-C4A1-431F-A69F-5B1ED0581CEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A02C01A-C4A1-431F-A69F-5B1ED0581CEC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A0CF81D-7715-4985-B31C-9B2D184940A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A0CF81D-7715-4985-B31C-9B2D184940A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A0CF81D-7715-4985-B31C-9B2D184940A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A0CF81D-7715-4985-B31C-9B2D184940A2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6A02C01A-C4A1-431F-A69F-5B1ED0581CEC} = {B2A20C3D-BB19-4647-AE0F-CDCA548C84F6}
+		{9A0CF81D-7715-4985-B31C-9B2D184940A2} = {B2A20C3D-BB19-4647-AE0F-CDCA548C84F6}
 	EndGlobalSection
 EndGlobal
